@@ -16,6 +16,7 @@ public class Usuario {
     private int edad;
     private int telefono;
     private String email;
+    private String password; 
 
 
     public Usuario() {
@@ -24,6 +25,7 @@ public class Usuario {
         this.edad = 0;
         this.telefono = 0;
         this.email = "";
+        this.password = "";
     }
 
 
@@ -75,6 +77,19 @@ public class Usuario {
     public void setEmail(String email) {
         this.email = email;
     }
+
+
+    public String getPassword() {
+        return password;
+    }
+
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+
+   
 
     
 }
